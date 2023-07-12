@@ -1,0 +1,148 @@
+/* General setup */
+
+@font-face {
+  font-family: "source_code_problack";
+  src: url("fonts/sourcecodepro-black-webfont.woff2") format("woff2"),
+    url("fonts/sourcecodepro-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sinkin_sans700_bold";
+  src: url("fonts/sinkinsans-700bold-webfont.woff2") format("woff2"),
+    url("fonts/sinkinsans-700bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-family: "sinkin_sans700_bold";
+  font-size: 3.4em;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: "sinkin_sans700_bold";
+  font-size: 2.4em;
+  letter-spacing: 1px;
+  padding: 20px 0 0 20px;
+}
+
+p,
+ul,
+ol {
+  font-size: 1.8em;
+  line-height: 1.3em;
+  letter-spacing: 0.7px;
+  word-spacing: 1.2px;
+}
+
+a:link {
+  color: olivedrab;
+}
+
+a:visited {
+  color: orangered;
+}
+
+a:focus {
+  color: violet;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(56, 4, 4);
+  text-decoration: none;
+}
+a:active {
+  background: rgb(179, 88, 88);
+}
+
+a {
+  text-decoration: underline;
+  outline: none;
+}
+
+a[href="http"] {
+  background: url(external-link-52.png) no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+.b {
+  text-decoration: none;
+  outline: none;
+  list-style-type: none;
+  line-height: 3em;
+  font-size: 2em;
+}
+
+.b li {
+  display: block;
+  border: 1px solid black;
+  text-align: center;
+  margin: 8px;
+  background: wheat;
+}
